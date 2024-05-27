@@ -1,0 +1,17 @@
+Configuring Git
+git config --global user.name "username"
+git config --global user.email "email"
+
+Initialize Git Repository
+git init
+
+# Legends
+U - Untracked/Unmerged/Updated but unmerged
+A - Added
+M - Modified
+D - Deleted
+R - Renamed
+C - Copied
+
+Check the status
+git status
