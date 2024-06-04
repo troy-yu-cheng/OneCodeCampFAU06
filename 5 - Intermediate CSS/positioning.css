@@ -1,0 +1,28 @@
+.relative {
+    /* Relative to its original position */
+    position: relative;
+    background-color: aqua;
+    top: 85px;
+    left: 20px;
+}
+
+.absolute {
+    /* Relative to its parent container */
+    background-color: bisque;
+    position: absolute;
+    top: 0px;
+}
+
+.fixed {
+    background-color: crimson;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.sticky {
+    position: sticky;
+    background-color: blueviolet;
+    color: white;
+    top: 0px;
+}

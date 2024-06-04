@@ -15,3 +15,40 @@ C - Copied
 
 Check the status
 git status
+
+Adding files into the staging area
+git add .
+
+Create a commit
+git commit -m "This is the description."
+
+Branching
+
+List all branches
+git branch -a
+
+Create a Branch
+git branch [branch_name]
+
+Switch to a different branch
+git checkout [branch_name]
+
+Merging
+
+Merging feature branch to the main/master branch
+git merge [branch_name]
+
+Delete a branch
+git branch -d [branch_name]
+
+revert back to a certain commit
+git reset --hard [commit-hash]
+
+git commit -m "Create notes to revert back to a certain commit."
+
+nothing to commit, working tree clean
+git log --oneline
+
+
+
+git clone [repository-url]

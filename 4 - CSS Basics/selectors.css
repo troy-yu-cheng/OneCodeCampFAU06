@@ -1,0 +1,61 @@
+/* element selector - call the element name */
+
+span {
+    font-style: italic;
+    background-color: green;
+    color: aliceblue;
+}
+
+
+/* Class selector - call using '.' */
+.class-name {
+    background-color: pink;
+    color: brown;
+}
+
+/* ID selector - call using '#' */
+#id-name {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* '*' - call all elements */
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 0%; 
+    
+}
+
+
+/* Grouping selector */
+.change-this, .style-me {
+    color: rgb(20, 232, 17);
+    background-color: rgb(39, 74, 74);
+}
+
+
+/* Decendant Selector */
+.ancestor p {
+    color: blueviolet;
+    font-size: 22px;
+}
+
+
+/* Psuedo-Classes */
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active {
+    color: palevioletred;
+}
+
+a:visited {
+    color: orange;
+}

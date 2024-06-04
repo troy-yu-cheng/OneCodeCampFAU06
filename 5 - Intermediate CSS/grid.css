@@ -1,0 +1,84 @@
+/* Using px */
+.gridContainer {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+/* Using auto */
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* Using percentages */
+.gridContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+/* Using Fr - Fractional Units */
+.gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+/* DRY */
+/* Using repeat() */
+.gridContainer {
+    display: grid;
+    /* repeat times, value */
+    grid-template-columns: repeat(3,1fr);
+}
+
+.gridContainer {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    gap: 30px;
+}
+
+/* Grid Area */
+/* .gridItem2 {
+    grid-area: 1/2/2/4;
+} */
+
+
+
+/* Media Queries */
+/* 
+    Mobile Devices: Less than 481px
+    iPads, Tablets: 481px - 768px
+    Small Screens, Laptops: 769px - 1024px
+    Desktops, Large Screens: 1025px - 1200px
+    Extra Large Screens, TV: 1201px and greater
+*/
+/* 
+1. screen
+2. print
+3. speech
+*/
+
+
+/* Mobile Devices */
+@media screen and (max-width:480px) {
+   .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+   } 
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .gridContainer {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*  Desktops, Large Screens, Extra Large Screens, TV */
+@media screen and (min-width: 1025px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }

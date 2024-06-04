@@ -1,0 +1,66 @@
+.flexContainer {
+    display: flex;
+    /* flex-direction: row; Default */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* Wrapping the content */
+    /* flex-wrap: nowrap; Default */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+
+    /* column-gap: 30px; */
+    /* row-gap: 30px; */
+    /* gap: 30px; */
+
+    /* .flexItem2 {
+        align-self: flex-start;
+        align-self: flex-end;
+        align-self: center;
+      } */
+
+
+/* Willingness to grow */
+.flexItem1 {
+    /* Willing to grow */
+    flex-grow: 1;
+  }
+  .flexItem2 {
+    /* More willing to grow */
+    flex-grow: 2;
+  }
+  .flexItem3 {
+    flex-grow: 0;
+  }
+
+/* Willingness to shrink */
+.flexItem1 {
+    /* Willing to shrink */
+    flex-shrink: 1;
+  }
+  .flexItem2 {
+    /* Not willing to shrink */
+    flex-shrink: 0;
+  }
+  .flexItem3 {
+    /* More willing to shrink */
+    flex-shrink: 2;
+  }
+
+
+
+}
